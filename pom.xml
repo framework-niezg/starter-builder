@@ -7,27 +7,27 @@
     <groupId>com.zjcds.common</groupId>
     <artifactId>starter-builder</artifactId>
     <packaging>pom</packaging>
-    <version>1.5-SNAPSHOT</version>
+    <version>2.0</version>
 
     <parent>
         <groupId>com.zjcds.common</groupId>
         <artifactId>cds-common-parent</artifactId>
-        <version>1.4-SNAPSHOT</version>
+        <version>2.0</version>
     </parent>
 
     <modules>
-        <!--<module>../cds-common-base</module>-->
+        <module>../cds-common-base</module>
         <module>../cds-common-parent</module>
-        <!--<module>../cds-starter-jpa</module>-->
-        <!--<module>../cds-starter-dozer</module>-->
-        <!--<module>../cds-starter-jsonview</module>-->
-        <!--<module>../cds-starter-datasource</module>-->
-        <!--<module>../cds-starter-actuator-ext</module>-->
-        <!--<module>../cds-starter-swagger</module>-->
-        <!--<module>../cds-starter-db-auto-update</module>-->
-        <!--<module>../simple-web</module>-->
-        <!--<module>../cds-starter-syslog</module>-->
-        <!--<module>../cds-datastore</module>-->
+        <module>../cds-starter-jpa</module>
+        <module>../cds-starter-dozer</module>
+        <module>../cds-starter-jsonview</module>
+        <module>../cds-starter-datasource</module>
+        <module>../cds-starter-actuator-ext</module>
+        <module>../cds-starter-swagger</module>
+        <module>../cds-starter-db-auto-update</module>
+        <module>../simple-web</module>
+        <module>../cds-starter-syslog</module>
+        <module>../cds-datastore</module>
     </modules>
 
     <scm>

@@ -15,9 +15,9 @@
         <version>1.4-SNAPSHOT</version>
     </parent>
 
-    <!--<modules>-->
+    <modules>
         <!--<module>../cds-common-base</module>-->
-        <!--<module>../cds-common-parent</module>-->
+        <module>../cds-common-parent</module>
         <!--<module>../cds-starter-jpa</module>-->
         <!--<module>../cds-starter-dozer</module>-->
         <!--<module>../cds-starter-jsonview</module>-->
@@ -28,7 +28,7 @@
         <!--<module>../simple-web</module>-->
         <!--<module>../cds-starter-syslog</module>-->
         <!--<module>../cds-datastore</module>-->
-    <!--</modules>-->
+    </modules>
 
     <scm>
         <connection>scm:git:file:///D:/localRepository</connection>

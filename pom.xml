@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zjcds.common</groupId>
+    <artifactId>starter-builder</artifactId>
+    <packaging>pom</packaging>
+    <version>1.5-SNAPSHOT</version>
+
+    <parent>
+        <groupId>com.zjcds.common</groupId>
+        <artifactId>cds-common-parent</artifactId>
+        <version>1.4-SNAPSHOT</version>
+    </parent>
+
+    <modules>
+        <module>../cds-common-base</module>
+        <module>../cds-common-parent</module>
+        <module>../cds-starter-jpa</module>
+        <module>../cds-starter-dozer</module>
+        <module>../cds-starter-jsonview</module>
+        <module>../cds-starter-datasource</module>
+        <module>../cds-starter-actuator-ext</module>
+        <module>../cds-starter-swagger</module>
+        <module>../cds-starter-db-auto-update</module>
+        <module>../simple-web</module>
+        <module>../cds-starter-syslog</module>
+        <module>../cds-datastore</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>versions-maven-plugin</artifactId>
+                <version>2.5</version>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

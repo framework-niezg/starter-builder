@@ -7,12 +7,13 @@
     <groupId>com.zjcds.common</groupId>
     <artifactId>starter-builder</artifactId>
     <packaging>pom</packaging>
-    <version>2.0</version>
+    <version>2.1</version>
 
     <parent>
         <groupId>com.zjcds.common</groupId>
         <artifactId>cds-common-parent</artifactId>
-        <version>2.0</version>
+        <version>2.1</version>
+        <relativePath>../cds-common-parent/pom.xml</relativePath>
     </parent>
 
     <modules>
@@ -28,6 +29,7 @@
         <module>../simple-web</module>
         <module>../cds-starter-syslog</module>
         <module>../cds-datastore</module>
+        <module>../cds-starter-scheduler</module>
     </modules>
 
     <scm>

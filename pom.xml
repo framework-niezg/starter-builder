@@ -22,13 +22,13 @@
         <module>../cds-starter-jpa</module>
         <module>../cds-starter-dozer</module>
         <module>../cds-starter-jsonview</module>
+        <module>../cds-datastore</module>
         <module>../cds-starter-datasource</module>
         <module>../cds-starter-actuator-ext</module>
         <module>../cds-starter-swagger</module>
         <module>../cds-starter-db-auto-update</module>
         <module>../simple-web</module>
         <module>../cds-starter-syslog</module>
-        <module>../cds-datastore</module>
         <!--<module>../cds-starter-scheduler</module>-->
     </modules>
 
